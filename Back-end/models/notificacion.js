@@ -13,7 +13,7 @@ const notificacionSchema = new Schema({
     },
     cliente: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'cliente',
+        ref: 'CLIENTE',
         required: true,
     }
 }, {
